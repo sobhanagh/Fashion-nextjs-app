@@ -10,7 +10,15 @@ const config: Config = {
     extend: {
       colors: {
         greenColor: "#C2EFD4",
+        greenColorText: "#224F34",
+        greenColorBG: "#224F34",
       },
+      width: {
+        w100: '30rem',
+      },
+      height: {
+        h100: '30rem',
+      }
     },
   },
   plugins: [],
