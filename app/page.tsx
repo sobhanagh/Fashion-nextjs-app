@@ -1,4 +1,5 @@
 import BestSelling from "./component/BestSelling";
+import ExclusiveOffer from "./component/ExclusiveOffer";
 import HomePage from "./component/HomePage";
 import OurProducts from "./component/OurProducts";
 
@@ -12,8 +13,11 @@ export default function Home() {
       <div className="mb-14">
         <BestSelling />
       </div>
-      <div>
+      <div className="mb-20">
         <OurProducts />
+      </div>
+      <div>
+        <ExclusiveOffer />
       </div>
     </main >
   );
