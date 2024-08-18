@@ -19,8 +19,18 @@ const RenderImage = ({ item }: { item: imageType }) => {
                 className="absolute w-full"
             />
             <div className="flex flex-col items-center gap-1 md:text-lg mt-3">
-                <h2>{item.title}</h2>
-                <h4>{item.price}</h4>
+                <h2 className="font-semibold">{item.title}</h2>
+                <div className="flex items-center gap-2">
+                    <h4>{item.price}
+                    </h4>
+                    <Image
+                        src={"/star.svg"}
+                        width={20}
+                        height={20}
+                        alt="score"
+                    />
+                </div>
+
             </div>
         </div>
     )

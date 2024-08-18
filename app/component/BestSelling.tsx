@@ -1,4 +1,3 @@
-import Image from "next/image"
 import Link from "next/link"
 import RenderImage from "./RenderImage"
 import { imageType } from "./Types"
@@ -16,14 +15,14 @@ const BestSelling = () => {
         {
             srcBackground: "/best_selling/Rectangle_second.svg",
             srcPerson: "/best_selling/second.svg",
-            title: "Regular Fit Long Sleeve Top",
-            price: "$38.99 | 5.0"
+            title: "Black Crop Tailored Jacket",
+            price: "$62.99 | 4.9"
         },
         {
             srcBackground: "/best_selling/Rectangle_third.svg",
             srcPerson: "/best_selling/third.svg",
-            title: "Regular Fit Long Sleeve Top",
-            price: "$38.99 | 5.0"
+            title: "Textured Sunset Shirt",
+            price: "$49.99 | 5.0"
         },
     ]
 
