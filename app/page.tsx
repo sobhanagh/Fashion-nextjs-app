@@ -8,7 +8,7 @@ export default function Home() {
       <div className="mb-96 md:mb-52 lg:mb-32">
         <HomePage />
       </div>
-      <div className="">
+      <div>
         <BestSelling />
       </div>
     </main >
