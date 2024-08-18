@@ -1,5 +1,6 @@
 import BestSelling from "./component/BestSelling";
 import HomePage from "./component/HomePage";
+import OurProducts from "./component/OurProducts";
 
 
 export default function Home() {
@@ -8,8 +9,11 @@ export default function Home() {
       <div className="mb-96 md:mb-52 lg:mb-32">
         <HomePage />
       </div>
-      <div>
+      <div className="mb-14">
         <BestSelling />
+      </div>
+      <div>
+        <OurProducts />
       </div>
     </main >
   );
