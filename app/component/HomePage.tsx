@@ -14,7 +14,7 @@ const HomePage = () => {
                         Explore our curated collection of stylish clothing and accessories tailored to your unique taste.
                     </p>
                     <div>
-                        <Link className="bg-greenColorBG hover:bg-green-800 transition duration-300 px-5 py-2 rounded-md text-white lg:px-8 lg:py-4 lg:text-lg " href="#">Explore Now</Link>
+                        <Link className="bg-greenColorText hover:bg-green-800 transition duration-300 px-5 py-2 rounded-md text-white lg:px-8 lg:py-4 lg:text-lg " href="#">Explore Now</Link>
                     </div>
                 </div>
                 <Image
