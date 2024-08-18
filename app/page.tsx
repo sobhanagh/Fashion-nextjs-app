@@ -1,14 +1,15 @@
+import BestSelling from "./component/BestSelling";
 import HomePage from "./component/HomePage";
 
 
 export default function Home() {
   return (
-    <main>
-      <div className="mb-28">
+    <main className="mb-10">
+      <div className="mb-96 md:mb-52 lg:mb-32">
         <HomePage />
       </div>
-      <div className="bg-red-600">
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero nostrum quaerat ex sapiente sint illo autem, impedit tempora odit tempore est quae earum repellat sed in eveniet quas porro? Dolor?z</p>
+      <div className="">
+        <BestSelling />
       </div>
     </main >
   );
