@@ -57,7 +57,7 @@ const OurProducts = () => {
     return (
         <div className="flex flex-col items-center justify-center px-10 gap-10">
             <div className="flex flex-col items-center">
-                <h1 className="text-xl text-greenColorText md:text-3xl lg:text-5xl">Our Products</h1>
+                <h1 className="text-xl text-greenColorText md:text-3xl lg:text-5xl font-semibold">Our Products</h1>
             </div>
             {
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-items-center gap-10 w-3/4 lg:w-full">

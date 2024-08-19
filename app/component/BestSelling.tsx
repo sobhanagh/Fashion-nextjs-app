@@ -27,9 +27,9 @@ const BestSelling = () => {
     ]
 
     return (
-        <div className="flex flex-col items-center justify-center gap-10 px-10">
+        <div className="flex flex-col items-center justify-center gap-10 px-10 xl:px-16">
             <div className="flex flex-col items-center justify-center gap-5 w-full">
-                <h1 className="text-xl text-greenColorText md:text-3xl lg:text-5xl">Best Selling</h1>
+                <h1 className="text-xl text-greenColorText md:text-3xl lg:text-5xl font-semibold">Best Selling</h1>
                 <p className="text-greenColorText text-center md:text-xl">Get in on the trend with our curated selection of best-selling styles.</p>
             </div>
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 w-3/4 lg:w-full">
