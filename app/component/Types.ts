@@ -4,3 +4,10 @@ export type imageType = {
     title: string;
     price: string;
 };
+
+export type imageTypeDesigner = {
+    srcBackground: string;
+    srcPerson: string;
+    title: string;
+    desc: string;
+};
