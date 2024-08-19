@@ -11,6 +11,7 @@ const config: Config = {
       colors: {
         greenColor: "#C2EFD4",
         greenColorText: "#224F34",
+        greenColorBtn: "#A3F3BE",
       },
       width: {
         w100: '30rem',
