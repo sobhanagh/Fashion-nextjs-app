@@ -13,15 +13,15 @@ const ExclusiveOffer = () => {
                         Unlock the ultimate style upgrade with our exclusive offer Enjoy savings of up to 40% off on our latest New Arrivals
                     </p>
                     <div className="grid grid-cols-3 gap-3 text-greenColorText">
-                        <div className="flex flex-col items-center bg-white px-3 py-1">
+                        <div className="flex flex-col items-center bg-white px-3 py-1 lg:text-xl">
                             <p className="font-bold">06</p>
                             <p>Days</p>
                         </div>
-                        <div className="flex flex-col items-center bg-white px-3 py-1">
+                        <div className="flex flex-col items-center bg-white px-3 py-1 lg:text-xl">
                             <p className="font-bold">18</p>
                             <p>Hours</p>
                         </div>
-                        <div className="flex flex-col items-center bg-white px-3 py-1">
+                        <div className="flex flex-col items-center bg-white px-3 py-1 lg:text-xl">
                             <p className="font-bold">48</p>
                             <p>Min</p>
                         </div>
