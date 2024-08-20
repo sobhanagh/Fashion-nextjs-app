@@ -34,10 +34,10 @@ const FeedBackCorner = () => {
     }, [index])
 
     return (
-        <div className="flex flex-col items-center">
-            <h1 className="text-xl text-greenColorText md:text-3xl lg:text-5xl font-semibold">Feedback Corner</h1>
-            <div className="flex flex-col items-center gap-10 w-full">
-                <div className="flex flex-col items-start gap-5 bg-greenColor relative w-11/12">
+        <div className="flex flex-col items-center gap-10">
+            <h1 className="text-xl text-greenColorText md:text-3xl lg:text-5xl font-semibold ">Feedback Corner</h1>
+            <div className="flex flex-col items-center w-10/12">
+                <div className="relative w-10/12 lg:w-9/12 bg-greenColor rounded-lg min-h-96 lg:min-h-72">
                     {
                         data.map((feedback, feedbackIndex) => {
 
@@ -53,9 +53,9 @@ const FeedBackCorner = () => {
                             }
 
                             return (
-                                <div key={feedbackIndex}
-                                    className={`${style} duration-300 w-full absolute inset-0 flex flex-col gap-10
-                                    ${index == feedbackIndex ? 'opacity-100' : 'opacity-0'} `}
+                                <article key={feedbackIndex}
+                                    className={`${style} transition duration-300 w-full absolute inset-0 flex flex-col gap-5 sm:gap-10
+                                    ${index == feedbackIndex ? 'opacity-100' : 'opacity-0'} p-5 max-h-20`}
                                 >
                                     <Image
                                         src="/feedback.svg"
@@ -64,14 +64,14 @@ const FeedBackCorner = () => {
                                         alt="feedback"
                                     />
                                     <h1 className="font-semibold">{name}</h1>
-                                    <p>{comment}</p>
-                                </div>
+                                    <p >{comment}</p>
+                                </article>
                             )
                         })
 
                     }
                 </div>
-                <div className="flex items-center text-greenColorText gap-5">
+                <div className="flex items-center text-greenColorText gap-5 mt-10">
                     <button onClick={() => setIndex(index - 1)}>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6 cursor-pointer">
                             <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 19.5 8.25 12l7.5-7.5"
@@ -81,7 +81,6 @@ const FeedBackCorner = () => {
                     <button onClick={() => setIndex(index + 1)}>
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6 cursor-pointer">
                             <path strokeLinecap="round" strokeLinejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5"
-                                onClick={() => setIndex(index + 1)}
                             />
                         </svg>
                     </button>

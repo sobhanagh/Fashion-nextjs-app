@@ -24,7 +24,7 @@ export default function Home() {
       <div className="mb-20">
         <DesignClothes />
       </div>
-      <div className="">
+      <div className="mb-10">
         <FeedBackCorner />
       </div>
     </main >
