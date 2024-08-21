@@ -1,5 +1,6 @@
 import { imageType } from "./Types"
 import RenderImage from "./RenderImage"
+import Link from "next/link"
 
 const OurProducts = () => {
 
@@ -69,7 +70,14 @@ const OurProducts = () => {
                         })
                     }
                 </div>
+
             }
+            <Link href="/products/all" className="border-2 border-greenColorText px-4 py-1 flex items-center gap-2 lg:text-lg lg:px-8 lg:py-3 hover:bg-greenColorText hover:text-white transition duration-200">
+                <p>See all</p>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+                </svg>
+            </Link>
 
         </div>
     )
