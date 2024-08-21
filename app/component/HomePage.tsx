@@ -19,8 +19,8 @@ const HomePage = () => {
                 </div>
                 <Image
                     src={"/home_img.svg"}
-                    width={1}
-                    height={1}
+                    width={1000}
+                    height={1000}
                     alt="fashion"
                     className="hidden md:inline w-96 h-96 lg:w-w100 lg:h-h100"
                 />

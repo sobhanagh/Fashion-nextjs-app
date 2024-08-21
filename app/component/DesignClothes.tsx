@@ -7,19 +7,19 @@ const DesignClothes = () => {
     const images: imageTypeDesigner[] = [
         {
             srcBackground: "/Designer/Rectangle_1.svg",
-            srcPerson: "/Designer/person_1.svg",
+            srcPerson: "/Designer/person_1.png",
             title: "Accessories",
             desc: "Complete your ensemble with designer accessories such as handbags, scarves, belts, and hats."
         },
         {
             srcBackground: "/Designer/Rectangle_2.svg",
-            srcPerson: "/Designer/person_2.svg",
+            srcPerson: "/Designer/person_2.png",
             title: "Dresses",
             desc: "Explore a stunning range of designer dresses, including evening gowns and chic day dresses."
         },
         {
             srcBackground: "/Designer/person_3.svg",
-            srcPerson: "/Designer/person_3.svg",
+            srcPerson: "/Designer/person_3.png",
             title: "Outerwear",
             desc: "Browse luxurious designer coats, jackets, and blazers to stay stylishly warm during colder seasons."
         },
