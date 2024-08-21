@@ -96,12 +96,11 @@ const page = ({ params }: any) => {
     const entries = searchTerm === "all" ? [...products] : products.filter((product) => product.category === searchTerm);
 
 
-
     return (
-        <div className="relative w-full my-10 mb-32">
-            <div className="flex flex-col items-center gap-8">
+        <div className="relative my-10 mb-32">
+            <div className="flex flex-col items-center gap-8 px-5">
                 <h1 className="text-xl text-greenColorText md:text-3xl lg:text-4xl font-semibold">Products</h1>
-                <div className="flex items-center gap-5">
+                <div className="flex items-center justify-center gap-5 flex-wrap w-full">
                     {
                         buttons.map((btn) => {
                             return (
