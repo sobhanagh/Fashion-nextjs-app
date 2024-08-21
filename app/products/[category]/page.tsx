@@ -1,5 +1,3 @@
-"use client";
-
 import { productType } from "@/app/component/Types"
 import RenderProduct from "@/app/component/RenderProduct"
 import Link from "next/link"
