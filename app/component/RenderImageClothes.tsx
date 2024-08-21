@@ -6,15 +6,15 @@ const RenderImage = ({ item }: { item: imageTypeDesigner }) => {
         <div className="flex flex-col items-center relative">
             <Image
                 src={`${item.srcBackground}`}
-                width={1}
-                height={1}
+                width={1000}
+                height={1000}
                 alt="fashion"
                 className="w-full"
             />
             <Image
                 src={`${item.srcPerson}`}
-                width={1}
-                height={1}
+                width={1000}
+                height={1000}
                 alt="fashion"
                 className="absolute w-full"
             />

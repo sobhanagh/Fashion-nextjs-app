@@ -8,19 +8,19 @@ const BestSelling = () => {
     const images: imageType[] = [
         {
             srcBackground: "/best_selling/Rectangle_first.svg",
-            srcPerson: "/best_selling/first.svg",
+            srcPerson: "/best_selling/first.png",
             title: "Regular Fit Long Sleeve Top",
             price: "$38.99 | 5.0"
         },
         {
             srcBackground: "/best_selling/Rectangle_second.svg",
-            srcPerson: "/best_selling/second.svg",
+            srcPerson: "/best_selling/second.png",
             title: "Black Crop Tailored Jacket",
             price: "$62.99 | 4.9"
         },
         {
             srcBackground: "/best_selling/Rectangle_third.svg",
-            srcPerson: "/best_selling/third.svg",
+            srcPerson: "/best_selling/third.png",
             title: "Textured Sunset Shirt",
             price: "$49.99 | 5.0"
         },
