@@ -34,7 +34,7 @@ const Navbar = () => {
                 {
                     Links.map((link) => {
                         return (
-                            <Link href={link.address} key={link.address}
+                            <Link href={link.address} key={link.title}
                                 className="hover:underline underline-offset-8 decoration-green-800 transition-all duration-300"
                             >
                                 {link.title}
@@ -56,7 +56,7 @@ const Navbar = () => {
                 {
                     Links.map((link) => {
                         return (
-                            <Link href={link.address} key={link.address}>
+                            <Link href={link.address} key={link.title}>
                                 {link.title}
                             </Link>
                         )
