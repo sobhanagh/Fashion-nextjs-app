@@ -18,7 +18,7 @@ const DesignClothes = () => {
             desc: "Explore a stunning range of designer dresses, including evening gowns and chic day dresses."
         },
         {
-            srcBackground: "/Designer/person_3.svg",
+            srcBackground: "/Designer/Rectangle_3.svg",
             srcPerson: "/Designer/person_3.png",
             title: "Outerwear",
             desc: "Browse luxurious designer coats, jackets, and blazers to stay stylishly warm during colder seasons."
