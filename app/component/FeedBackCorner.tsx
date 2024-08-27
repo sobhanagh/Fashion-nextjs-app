@@ -37,7 +37,7 @@ const FeedBackCorner = () => {
         <div className="flex flex-col items-center gap-10">
             <h1 className="text-xl text-greenColorText md:text-3xl lg:text-5xl font-semibold ">Feedback Corner</h1>
             <div className="flex flex-col items-center w-10/12">
-                <div className="relative w-10/12 lg:w-9/12 bg-greenColor rounded-lg min-h-96 lg:min-h-72">
+                <div className="relative w-10/12 lg:w-9/12 bg-greenColor rounded-lg min-h-96 lg:min-h-72 overflow-hidden">
                     {
                         data.map((feedback, feedbackIndex) => {
 
